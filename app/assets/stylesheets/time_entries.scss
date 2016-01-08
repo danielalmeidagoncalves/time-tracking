@@ -1,0 +1,77 @@
+// Place all the styles related to the TimeEntries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.timer{
+  background-color: #fff;
+  margin: 48px auto;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(128,128,128,.4);
+}
+
+.timer>div {
+    background: #fff;
+}
+
+.task-description{
+  float:left;
+  width:70%;
+}
+
+.date-time-container {
+  float: left;
+  width: 20%;
+}
+
+.input-description{
+  padding-right: 0;
+}
+
+input[type=text].large,div.large{
+    font-size: 18px;
+    padding: 15px 18px 20px;
+
+    background-color: #fff;
+    font-family: "Open Sans",Arial,sans-serif;
+    line-height: normal!important;
+    border: 0;
+    box-shadow: 0 1px 3px rgba(128,128,128,.2);
+    color: #222;
+    display: block;
+    margin: 0;
+
+}
+
+.btn-start{
+    box-shadow: inset 0 -1px 0 #929292;
+    background: #929292;
+    border-color: #929292;
+    color: #fff;
+    float: left;
+    width: 10%;
+}
+
+.button.green{
+    color: #fff;
+    background: #4bc800!important;
+    border: 0;
+    box-shadow: inset 0 -2px 0 #45b900!important;
+}
+
+.button.large, .large.share-button {
+    font-size: 18px;
+    padding: 15px 24px 16px;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus,button:focus {
+    outline: none;
+}
+
+.button.red, .red.share-button {
+    color: #fff;
+    background: #ec0000!important;
+    border: 0;
+    -moz-box-shadow: inset 0 -2px 0 #d00!important;
+    -webkit-box-shadow: inset 0 -2px 0 #d00!important;
+    box-shadow: inset 0 -2px 0 #d00!important;
+}
